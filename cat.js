@@ -24,7 +24,7 @@ define(function(require, exports, module) {
 
         // when plugin is loaded
         plugin.on("load", function() {
-
+            return ;
             // create button
             button = new imports.ui.button({
                 "skin": "c9-menu-btn",
